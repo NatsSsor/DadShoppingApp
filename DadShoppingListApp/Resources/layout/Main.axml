@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-</LinearLayout>
+<GridLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/gridLayout1"
+    p1:minWidth="25px"
+    p1:minHeight="25px">
+    <GridLayout
+        p1:minWidth="775px"
+        p1:minHeight="100px"
+        p1:id="@+id/gridLayout2">
+        <Button
+            p1:text="Add Shop"
+            p1:id="@+id/btnAddShop"
+            p1:paddingLeft="130px"
+            p1:paddingRight="130px" />
+        <Button
+            p1:text="Button"
+            p1:id="@+id/button2"
+            p1:paddingLeft="130px"
+            p1:paddingRight="130px" />
+    </GridLayout>
+</GridLayout>

@@ -65,6 +65,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
